@@ -1,0 +1,62 @@
+/* Reset */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+  
+
+/* Main Styling */
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+  background-color: black;
+  color: antiquewhite;
+  overflow: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbarul li a:hover {
+  background: blueviolet;
+  color: aqua;
+}
